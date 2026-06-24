@@ -1,0 +1,12 @@
+[project]
+name = "agent-readme-pack"
+version = "0.1.0"
+description = "A tiny tool that turns any GitHub repo into an optimized onboarding manual for Codex, Claude Code, Cursor, and other agents—so maintainers can add one badge and make their project instantly agent-friendly."
+requires-python = ">=3.11"
+
+[project.scripts]
+agent-readme-pack = "agent_readme_pack.main:main"
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
